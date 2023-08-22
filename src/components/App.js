@@ -20,9 +20,9 @@ const App = () => {
   return (
     <div>
         {<Tabs tabs={tabs1} onclick={changetab} key={1} id={1}/>}
-        {tab1 && <div>This is the content for {tab1}.</div>}
+        {tab1 && <div>This is the content for {tab1}</div>}
         {<Tabs tabs={tabs2} onclick={changetab} key={2} id={2}/>}
-        {tab2 && <div>This is the content for {tab2}.</div>}
+        {tab2 && <div>This is the content for {tab2}</div>}
     </div>
   )
 }
