@@ -6,7 +6,7 @@ import Tabs from './Tabs'
 const App = () => {
   let tabs1=[{titles:'1',content:'Tab 1'},{titles:'2',content:'Tab 2'},{titles:'3',content:'Tab 3'}]
   let tabs2=[{titles:'A',content:'Tab A'},{titles:'B',content:'Tab B'},{titles:'C',content:'Tab C'}]
-  let [tab1,Settab1]= useState('')
+  let [tab1,Settab1]= useState('Tab 1')
   let [tab2,Settab2]= useState('')
   function changetab(data,key){
     console.log(key)
